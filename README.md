@@ -1,21 +1,27 @@
-Clone the assignment repository into your ROS 2 workspace:
+Clone this repository in your ROS 2 workspace:
 
-\textbf{git clone https://github.com/aayush11101998/ROS2\_assignment2.git}
+**https://github.com/aayush11101998/ROS2_assignment2.git**
 
-Next, navigate to your ROS 2 workspace and clone the Stage simulator and its ROS 2 interface:
+Next, clone the Stage simulator and its ROS 2 interface into your workspace:
 
-\textbf{git clone https://github.com/tuw-robotics/Stage.git}
+**git clone https://github.com/tuw-robotics/Stage.git**
 
-\textbf{git clone https://github.com/tuw-robotics/stage\_ros2.git}
+**git clone https://github.com/tuw-robotics/stage_ros2.git**
 
-Ensure that the required FLTK development packages are installed. If not, install them using:
+Ensure that the FLTK development packages are installed. If not, install them using:
 
-\textbf{sudo apt update \&\& sudo apt install -y libfltk1.3-dev}
+**sudo apt install -y libfltk1.3-dev**
 
-Also, ensure that the required ROS 2 message packages are installed:
+Also, ensure that `ackermann_msgs` is installed:
 
-\textbf{sudo apt install -y ros-humble-ackermann-msgs}
+**sudo apt install -y ros-humble-ackermann-msgs**
 
-If you encounter errors related to \texttt{marker\_msgs}, check whether the package is available for your ROS 2 distribution. If it is not available through APT, obtain and build the appropriate source package.
+If you encounter errors related to `marker_msgs`, check whether the package is available for your ROS 2 distribution and install it if available. 
 
-Finally, build the Stage simulator and its ROS 2 interface from your workspace.
+To run the world `ros2 run stage_ros2 stage_ros2 --ros-args   -p world_file:=/"full address to your ros_ws"/assignment_service_client/world/my_world.world`
+
+## Racetrack
+
+The following image shows the racetrack used in this assignment.
+
+![Racetrack](assignment_service_client/world/tracciato.png)
