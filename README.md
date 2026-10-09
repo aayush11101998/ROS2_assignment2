@@ -9,7 +9,7 @@ Also, ensure that `ackermann_msgs` is installed:
 **sudo apt install -y ros-humble-ackermann-msgs**
 If you encounter errors related to `marker_msgs`, check whether the package is available for your ROS 2 distribution and install it if available. 
 To run the world `ros2 run stage_ros2 stage_ros2 --ros-args   -p world_file:=/"full address to your ros_ws"/assignment_service_client/world/my_world.world`
-## Racetrack
-The following image shows the racetrack used in this assignment.
 
-![Racetrack]([assignment_service_client/world/tracciato.png](https://github.com/aayush11101998/ROS2_assignment2/blob/master/lecture3_assignment/assignment_service_client/world/tracciato.png))
+## Racetrack
+
+![Racetrack](https://raw.githubusercontent.com/aayush11101998/ROS2_assignment2/master/lecture3_assignment/assignment_service_client/world/tracciato.png)
