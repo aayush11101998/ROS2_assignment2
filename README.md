@@ -9,6 +9,7 @@ Also, ensure that `ackermann_msgs` is installed:
 **sudo apt install -y ros-humble-ackermann-msgs**
 If you encounter errors related to `marker_msgs`, check whether the package is available for your ROS 2 distribution and install it if available. 
 To run the world `ros2 run stage_ros2 stage_ros2 --ros-args   -p world_file:=/"full address to your ros_ws"/assignment_service_client/world/my_world.world`
+Use `sensor_msgs/msg/laser_scan` topic to subscribe to the value of sensor.
 
 ## Racetrack
 
